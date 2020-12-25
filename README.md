@@ -26,7 +26,7 @@ Save any changes.
 
 ##### After any desired changes, explained above, run the code with following commands: 
 
-* Clone the repository and go into the `ec2` folder. (Make sure to enter aws access key and secret key under `ec2.tfvars`)
+* Clone the repository and go into the `ec2` folder. (Make sure to enter aws access key and secret key under `ec2.tfvars` file)
 * `Terraform init` <br/>
 * `Terraform apply -var-file ec2.tfvars`
 
