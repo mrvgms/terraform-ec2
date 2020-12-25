@@ -26,7 +26,7 @@ Save any changes.
 
 ##### After any desired changes, explained above, run the code with following commands: 
 
-* Clone the repository and go into the `ec2` folder. (Make sure to enter aws access key and secret key under ec2.tfvars)
+* Clone the repository and go into the `ec2` folder. (Make sure to enter aws access key and secret key under `ec2.tfvars`)
 * `Terraform init` <br/>
 * `Terraform apply -var-file ec2.tfvars`
 
@@ -39,4 +39,4 @@ If desired, more output values can be added to `output.tf` file.
 * Please note that the current code uses Amazon Linux AMI, if AMI ID is changed per user preference, then use the corresponding user name instead of `ec2-user`  <br/>
   examples:  <br/>
 `ssh centos@<instance_IP_address> -p 2222`  <br/>
-`ssh ec2-user@<instance_IP_address> -p 2222`
+`ssh ubuntu@<instance_IP_address> -p 2222`
